@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fabu András - Webáruház</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+    integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/167a7b748c.js" crossorigin="anonymous"></script>
+  <script type="module" src="main.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <hr />
+    <nav class="navbar navbar-expand-sm navbar-dark border-secondary rounded-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="kepek/fagyi_logo.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+        </a>
+        <a class="navbar-brand oldalcim" href="index.html">Fagylalt<br>Webáruház</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto nav">
+            <li class="nav-item padding">
+              <a class="nav-link menupontok" href="index.html"><i class="fa fa-home"></i> Termékek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menupontok" href="szemelyes-adatok.html"><i class="fa-solid fa-user"></i> Személyes
+                adatok</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menupontAdmin aktiv" href="admin.html"><i class="fa-solid fa-lock"></i> Admin</a>
+            </li>
+          </ul>
+          <!--<ul class="nav justify-content-end">
+            <li class="nav-item padding">
+              <a class="nav-link menupontok" href="kosar.html"><i class="fa fa-shopping-basket"></i> Kosár</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link menupontAdmin" href="admin.html"><i class="fa-solid fa-lock"></i> Admin</a>
+            </li>
+          </ul>-->
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <header>
+      <h3 class="adminfeluletpadding">Admin felület</h3>
+  </header>
+    <div class="adatokAdmin"></div>
+    <hr />
+    <footer>
+      <p class="footerszoveg">
+        Fabu András<br />
+        <a href="https://github.com/fabuandras" style="font-size: 24px" class="elerhetoseg footerszoveg2"><i
+            class="fa fa-github" style="font-size: 24px"></i></a>
+      </p>
+    </footer>
+  </main>
+</body>
+
+</html>
